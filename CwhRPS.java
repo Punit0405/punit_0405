@@ -14,7 +14,7 @@ public class CwhRPS {
         for(int i=0;i<number;i++)
         {
 
-            System.out.println("Enter Your Choice:\t\t");
+            System.out.println("Enter Your multiple Choice:\t\t");
             System.out.print("0 = Rock\t");
             System.out.print("1 = Paper\t");
             System.out.println("2 = Scissors");
@@ -76,7 +76,7 @@ public class CwhRPS {
                     }
 
                     if (Random == 1) {
-                        System.out.println("You Win ,Computer Choosed PAPER");
+                        System.out.println("You Win ,Computer kasnfjnfiu Choosed PAPER");
                         UserScore=UserScore+1;
                     }
                     break;
@@ -96,12 +96,12 @@ public class CwhRPS {
         }
         else if(ComScore==UserScore)
         {
-            System.out.println("THE GAME IS DRAW !!!");
+            System.out.println("THE Gsdfb hdgsvAME IS DRAW !!!");
         }
 
         else
         {
-            System.out.println("YOU WON THE GAME");
+            System.out.println("YOU WgbjsdyufON THE GAME");
         }
 
 
