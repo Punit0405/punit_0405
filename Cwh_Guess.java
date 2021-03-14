@@ -22,25 +22,17 @@ class User{
     }
 }
 class Check{
-    public void  Check1(int a,int b)
-
-    {
-      if(a>b)
-      {
-          System.out.printf("Your Number Is Lower Than The Computer\nPlease,Choose Higher Then %d\n\n",b);
-      }
-      if(a<b)
-      {
-          System.out.printf("Your Number Is Higher Than The Computer\nPlease,Choose Lower Then %d\n\n",b);
-      }
-
-
-
+    public void  Check1(int a,int b) {
+        if (a > b) {
+            System.out.printf("Your Number Is Lower Than The Computer\nPlease,Choose Higher Then %d\n\n", b);
+        }
+        if (a < b) {
+            System.out.printf("Your Number Is Higher Than The Computer\nPlease,Choose Lower Then %d\n\n", b);
+        }
     }
   }
   class NoOfGusses{
     private int Num=1;
-
     public void SetNum()
     {
        this.Num +=1;
@@ -50,7 +42,7 @@ class Check{
       return this.Num;
     }
   }
-public class Cwh_Guess {
+  public class Cwh_Guess {
     public static void main(String[] args)
     {   Computer R1=new Computer();
         Scanner NN= new Scanner(System.in);
